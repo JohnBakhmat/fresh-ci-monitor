@@ -1,5 +1,3 @@
-import { useSignal } from "@preact/signals";
-import Counter from "../islands/Counter.tsx";
 import ProjectCard, { type JobStatus } from "../islands/ProjectCard.tsx";
 
 export default function Home() {

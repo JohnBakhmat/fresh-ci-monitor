@@ -8,7 +8,7 @@ export type JobStatus = typeof statuses[number];
 
 export default function ProjectCard(props: ProjectCardProps) {
   return (
-    <div class="w-fit rounded-xl flex flex-col gap-2 py-3 px-6 bg-black text-white">
+    <div class="w-fit rounded-xl flex flex-col gap-2 py-5 px-6 bg-black text-white">
       <h1>{props.name}</h1>
       <div class="flex flex-row gap-4">
         {props.steps.map((s) => (
